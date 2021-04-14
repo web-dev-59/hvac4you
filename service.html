@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HVAC4YOU / Сервис</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style__service.css">
+</head>
+
+<body>
+  <header class="header">
+    <img src="img/logo.svg" alt="logo" class="header__logo" />
+    <div class="header__open" id="open">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav class="header__nav hidden" id="nav">
+      <span class="header__close" id="close">X</span>
+      <ul class="header__nav__list">
+        <li class="header__nav__item"><a href="index.html" class="header__nav__link">Главная</a></li>
+        <li class="header__nav__item"><a href="spare_parts.html" class="header__nav__link">Подбор запчастей</a></li>
+        <li class="header__nav__item"><a href="service.html" class="header__nav__link">Сервис</a></li>
+        <li class="header__nav__item"><a href="contacts.html" class="header__nav__link">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="width: 158px">
+          <img src="img/slider-img1.png" alt="photo">
+        </div>
+        <div class="swiper-slide" style="width: 156px">
+          <img src="img/slider-img2.png" alt="photo">
+        </div>
+        <div class="swiper-slide" style="width: 127px">
+          <img src="img/slider-img3.png" alt="photo">
+        </div>
+        <div class="swiper-slide" style="width: 120px">
+          <img src="img/slider-img4.png" alt="photo">
+        </div>
+        <div class="swiper-slide" style="width: 133px">
+          <img src="img/slider-img5.png" alt="photo">
+        </div>
+        <div class="swiper-slide" style="width: 134px">
+          <img src="img/slider-img6.png" alt="photo">
+        </div>
+        <div class="swiper-slide" style="width: 92px">
+          <img src="img/slider-img7.png" alt="photo">
+        </div>
+        <div class="swiper-slide" style="width: 171px">
+          <img src="img/slider-img8.png" alt="photo">
+        </div>
+        <div class="swiper-slide" style="width: 147px">
+          <img src="img/slider-img9.png" alt="photo">
+        </div>
+        <div class="swiper-slide" style="width: 192px">
+          <img src="img/slider-img10.png" alt="photo">
+        </div>
+      </div>
+      <div class="container-swiper">
+        <img src="img/btn-prev.svg" alt="ico" class="swiper-button-prev">
+        <div class="swiper-pagination"></div>
+        <img src="img/btn-next.svg" alt="ico" class="swiper-button-next">
+      </div>
+    </div>
+    <div class="line"></div>
+    <div class="main__content">
+      <span class="main__content__title">Сервис</span>
+      <form action="#" method="POST" class="main__content__form">
+        <span class="main__content__form__text">В сервисной службе работают опытные профессионалы, способные выполнять
+          задания любого уровня сложности. Специалисты регулярно участвуют в семинарах, тренингах, аттестациях, повышая
+          свою квалификацию.</span>
+        <table class="main__content__table">
+          <tr>
+            <td>
+              <span class="main__content__table__text">Наименование компании:</span>
+            </td>
+            <td>
+              <input type=" text">
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <span class="main__content__table__text">Контакное лицо:</span>
+            </td>
+            <td>
+              <input type="text">
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <span class="main__content__table__text">Телефон:</span>
+            </td>
+            <td>
+              <input type="tel" name="tel" id="tel">
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <span class="main__content__table__text">E-mail:</span>
+            </td>
+            <td>
+              <input type="email" name="email" id="email">
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <span class="main__content__table__text">Описание заказа:</span>
+            </td>
+            <td>
+              <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              <span class="main__content__table__text">Прикрепите файл:</span>
+            </td>
+            <td>
+              <input type="file" name="file" id="file">
+            </td>
+            <td></td>
+          </tr>
+        </table>
+        <button type="submit" class="main__content__form__btn">Отправить</button>
+      </form>
+    </div>
+  </main>
+  <footer class="footer">
+    <img src="img/logo.svg" class="footer__logo" alt="logo">
+    <span class="footer__copy">
+      &copy; 2021 ООО &laquo;СК МИКОН&raquo; / ООО &laquo;КОНСОРС СЕРВИС&raquo;
+    </span>
+  </footer>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/swiper.js"></script>
+</body>
+
+</html>
